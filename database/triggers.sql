@@ -65,7 +65,7 @@ COMPOUND TRIGGER
     BEGIN
         v_patient_id := :NEW.patient_id;
         v_medication_id := :NEW.medication_id;
-    END AFTER ROW;
+    END AFTER EACH ROW;
 
     AFTER STATEMENT IS
         v_conflict_count NUMBER := 0;
@@ -112,7 +112,7 @@ COMPOUND TRIGGER
     BEGIN
         v_patient_id := :NEW.patient_id;
         v_medication_id := :NEW.medication_id;
-    END AFTER ROW;
+    END AFTER EACH ROW;
 
     AFTER STATEMENT IS
         v_duplicate_count NUMBER;
@@ -155,7 +155,7 @@ COMPOUND TRIGGER
         v_patient_id := :NEW.patient_id;
         v_medication_id := :NEW.medication_id;
         v_entered_dosage := :NEW.dosage;
-    END AFTER ROW;
+    END AFTER EACH ROW;
 
     AFTER STATEMENT IS
         v_standard_dosage VARCHAR2(50);
