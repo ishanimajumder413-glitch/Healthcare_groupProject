@@ -1,0 +1,12 @@
+Patient
+Doctor
+Symptoms
+Medical_History
+Laboratory_Results
+Diagnosis
+Treatment
+Medication
+Patient_Medication
+Drug_Interaction
+Allergy
+Prediction

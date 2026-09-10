@@ -1,0 +1,7 @@
+DOCTOR
+
+doctor_id
+name
+specialization
+phone
+email

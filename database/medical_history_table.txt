@@ -1,0 +1,7 @@
+MEDICAL_HISTORY
+
+history_id
+patient_id
+condition
+diagnosis_date
+description

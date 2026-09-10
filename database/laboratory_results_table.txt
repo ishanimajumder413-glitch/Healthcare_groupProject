@@ -1,0 +1,10 @@
+LABORATORY_RESULTS
+
+lab_id
+patient_id
+glucose
+blood_pressure
+bmi
+cholesterol
+heart_rate
+test_date

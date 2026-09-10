@@ -1,0 +1,8 @@
+PATIENT
+
+patient_id
+name
+age
+gender
+phone
+address

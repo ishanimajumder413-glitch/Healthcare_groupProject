@@ -1,0 +1,7 @@
+SYMPTOMS
+
+symptom_id
+patient_id
+symptom_name
+severity
+duration
